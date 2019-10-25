@@ -105,3 +105,114 @@ p {
   overflow: hidden;
   background: #282828;
 }
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: azure;
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: azure;
+  }
+  p {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    color: azure;
+  }
+
+  /* For mobile phones: */
+  [class*="bg"] {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  [class*="line"] {
+    background: #d02035;
+    height: 10px;
+    width: 35%;
+  }
+
+  [class*="container"] {
+    width: 100%;
+  }
+
+  [class*="heading"] {
+    width: 100%;
+  }
+  [class*="form"] {
+    width: 100%;
+  }
+
+  [class*="btn"] {
+    width: 100%;
+    background: #d02035;
+    border: none;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    height: 2.3rem;
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    color: azure;
+  }
+
+  [class*="inputs"] {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  [class*="input"] {
+    height: 2.2rem;
+    width: 45%;
+    font-family: "Merriweather", serif;
+    font-weight: italic;
+    font-size: 16px;
+  }
+  [class*="inputErr"] {
+    height: 2.2rem;
+    width: 45%;
+    font-family: "Merriweather", serif;
+    font-weight: italic;
+    font-size: 16px;
+    border-color: red;
+  }
+  [class*="select"] {
+    height: 2.6rem;
+    width: 45%;
+    font-family: "Merriweather", serif;
+    font-weight: italic;
+    font-size: 16px;
+    color: #cfcfcf;
+  }
+
+  [class*="active"] {
+    opacity: 0;
+    color: red;
+  }
+
+  [class*="loading"] {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    /* background: #282828; */
+    padding-top: 25%;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+  }
+
+  [class*="loadingp"] {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #282828;
+  }
+}
