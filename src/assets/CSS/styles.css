@@ -110,18 +110,18 @@ p {
   h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 35px;
+    font-size: 35%vw;
     color: azure;
   }
   h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 25%vw;
     color: azure;
   }
   p {
     font-family: "Merriweather", serif;
-    font-size: 20px;
+    font-size: 20%vw;
     color: azure;
   }
 
@@ -146,9 +146,13 @@ p {
 
   [class*="heading"] {
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
   [class*="form"] {
     width: 100%;
+    display: flex;
+    flex-direction: column;
   }
 
   [class*="btn"] {
@@ -156,7 +160,7 @@ p {
     background: #d02035;
     border: none;
     border-radius: 0.2rem;
-    margin-top: 1rem;
+    margin-top: 5rem;
     height: 2.3rem;
     font-family: "Merriweather", serif;
     font-size: 20px;
@@ -165,16 +169,18 @@ p {
 
   [class*="inputs"] {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: space-between;
     align-items: center;
   }
   [class*="input"] {
     height: 2.2rem;
-    width: 45%;
+    width: 100%;
     font-family: "Merriweather", serif;
     font-weight: italic;
     font-size: 16px;
+    margin-bottom: 0.3rem;
   }
   [class*="inputErr"] {
     height: 2.2rem;
@@ -186,7 +192,7 @@ p {
   }
   [class*="select"] {
     height: 2.6rem;
-    width: 45%;
+    width: 100%;
     font-family: "Merriweather", serif;
     font-weight: italic;
     font-size: 16px;
