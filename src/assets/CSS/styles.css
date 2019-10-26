@@ -30,6 +30,7 @@ p {
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
+  overflow: hidden;
 }
 .container {
   width: 50%;
@@ -117,7 +118,7 @@ p {
   h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 4vh;
     color: azure;
   }
   p {
