@@ -111,7 +111,7 @@ p {
   h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 5vh;
     color: azure;
   }
   h2 {
@@ -122,7 +122,7 @@ p {
   }
   p {
     font-family: "Merriweather", serif;
-    font-size: 20px;
+    font-size: 3vh;
     color: azure;
   }
 
@@ -134,12 +134,13 @@ p {
 
   .bg {
     background: #282828;
-    width: 100%;
-    height: 100vh;
+    width: 200vw;
+    height: 200vh;
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
+    align-items: start;
+    padding-left: 1rem;
   }
   .container {
     width: 50%;
