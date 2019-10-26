@@ -23,7 +23,7 @@ const Auth = () => {
           </div>
         </div>
       ) : (
-        <div className='bg'>
+        <div className='bgThx'>
           <div clas='container'>
             <div className='heading'>
               <h1>INTERNSHIP SIGNUP FORM</h1>
