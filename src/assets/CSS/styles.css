@@ -1,4 +1,113 @@
-@media only screen and (min-width: 768px) {
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 65px;
+  color: azure;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: azure;
+}
+p {
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  color: azure;
+}
+
+.line {
+  background: #d02035;
+  height: 10px;
+  width: 35%;
+}
+
+.bg {
+  background: #282828;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+.container {
+  width: 50%;
+}
+
+.heading {
+  width: 100%;
+}
+.form {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  background: #d02035;
+  border: none;
+  border-radius: 0.2rem;
+  margin-top: 1rem;
+  height: 2.3rem;
+  font-family: "Merriweather", serif;
+  font-size: 20px;
+  color: azure;
+}
+
+.inputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.input {
+  height: 2.2rem;
+  width: 45%;
+  font-family: "Merriweather", serif;
+  font-weight: italic;
+  font-size: 16px;
+}
+.inputErr {
+  height: 2.2rem;
+  width: 45%;
+  font-family: "Merriweather", serif;
+  font-weight: italic;
+  font-size: 16px;
+  border-color: red;
+}
+.select {
+  height: 2.6rem;
+  width: 45%;
+  font-family: "Merriweather", serif;
+  font-weight: italic;
+  font-size: 16px;
+  color: #cfcfcf;
+}
+
+.active {
+  opacity: 0;
+  color: red;
+}
+
+.loading {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  /* background: #282828; */
+  padding-top: 25%;
+  overflow-y: scroll;
+  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+  box-sizing: content-box; /* So the width will be 100% + 17px */
+}
+
+.loadingp {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #282828;
+}
+
+@media only screen and (max-width: 768px) {
   h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -29,10 +138,11 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
     align-items: center;
   }
   .container {
-    width: 100%;
+    width: 50%;
   }
 
   .heading {
@@ -56,20 +166,21 @@
 
   .inputs {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between;
     align-items: center;
   }
   .input {
     height: 2.2rem;
-    width: 45%;
+    width: 100%;
     font-family: "Merriweather", serif;
     font-weight: italic;
     font-size: 16px;
   }
   .inputErr {
     height: 2.2rem;
-    width: 45%;
+    width: 100%;
     font-family: "Merriweather", serif;
     font-weight: italic;
     font-size: 16px;
@@ -77,7 +188,8 @@
   }
   .select {
     height: 2.6rem;
-    width: 45%;
+    width: 100%;
+    margin: 1rem;
     font-family: "Merriweather", serif;
     font-weight: italic;
     font-size: 16px;
@@ -101,123 +213,6 @@
   }
 
   .loadingp {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-    background: #282828;
-  }
-}
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 35%vw;
-    color: azure;
-  }
-  h2 {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    font-size: 25%vw;
-    color: azure;
-  }
-  p {
-    font-family: "Merriweather", serif;
-    font-size: 20%vw;
-    color: azure;
-  }
-
-  /* For mobile phones: */
-  [class*="bg"] {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    background: #282828;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-  }
-  [class*="line"] {
-    background: #d02035;
-    height: 10px;
-    width: 35%;
-  }
-
-  [class*="container"] {
-    width: 90%;
-  }
-
-  [class*="heading"] {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  [class*="form"] {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-
-  [class*="btn"] {
-    width: 100%;
-    background: #d02035;
-    border: none;
-    border-radius: 0.2rem;
-    margin-top: 5rem;
-    height: 2.3rem;
-    font-family: "Merriweather", serif;
-    font-size: 20px;
-    color: azure;
-  }
-
-  [class*="inputs"] {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-  }
-  [class*="input"] {
-    height: 2.2rem;
-    width: 100%;
-    font-family: "Merriweather", serif;
-    font-weight: italic;
-    font-size: 16px;
-    margin-bottom: 0.3rem;
-  }
-  [class*="inputErr"] {
-    height: 2.2rem;
-    width: 45%;
-    font-family: "Merriweather", serif;
-    font-weight: italic;
-    font-size: 16px;
-    border-color: red;
-  }
-  [class*="select"] {
-    height: 2.6rem;
-    width: 100%;
-    font-family: "Merriweather", serif;
-    font-weight: italic;
-    font-size: 16px;
-    color: #cfcfcf;
-  }
-
-  [class*="active"] {
-    opacity: 0;
-    color: red;
-  }
-
-  [class*="loading"] {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    /* background: #282828; */
-    padding-top: 25%;
-    overflow-y: scroll;
-    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
-    box-sizing: content-box; /* So the width will be 100% + 17px */
-  }
-
-  [class*="loadingp"] {
     width: 100%;
     height: 100vh;
     overflow: hidden;
