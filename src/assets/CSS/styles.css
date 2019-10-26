@@ -1,111 +1,112 @@
-h1 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 65px;
-  color: azure;
-}
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  color: azure;
-}
-p {
-  font-family: "Merriweather", serif;
-  font-size: 20px;
-  color: azure;
-}
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: azure;
+  }
+  h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: azure;
+  }
+  p {
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    color: azure;
+  }
 
-.line {
-  background: #d02035;
-  height: 10px;
-  width: 35%;
-}
+  .line {
+    background: #d02035;
+    height: 10px;
+    width: 35%;
+  }
 
-.bg {
-  background: #282828;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.container {
-  width: 100%;
-}
+  .bg {
+    background: #282828;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    width: 100%;
+  }
 
-.heading {
-  width: 100%;
-}
-.form {
-  width: 100%;
-}
+  .heading {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
 
-.btn {
-  width: 100%;
-  background: #d02035;
-  border: none;
-  border-radius: 0.2rem;
-  margin-top: 1rem;
-  height: 2.3rem;
-  font-family: "Merriweather", serif;
-  font-size: 20px;
-  color: azure;
-}
+  .btn {
+    width: 100%;
+    background: #d02035;
+    border: none;
+    border-radius: 0.2rem;
+    margin-top: 1rem;
+    height: 2.3rem;
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    color: azure;
+  }
 
-.inputs {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-.input {
-  height: 2.2rem;
-  width: 45%;
-  font-family: "Merriweather", serif;
-  font-weight: italic;
-  font-size: 16px;
-}
-.inputErr {
-  height: 2.2rem;
-  width: 45%;
-  font-family: "Merriweather", serif;
-  font-weight: italic;
-  font-size: 16px;
-  border-color: red;
-}
-.select {
-  height: 2.6rem;
-  width: 45%;
-  font-family: "Merriweather", serif;
-  font-weight: italic;
-  font-size: 16px;
-  color: #cfcfcf;
-}
+  .inputs {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .input {
+    height: 2.2rem;
+    width: 45%;
+    font-family: "Merriweather", serif;
+    font-weight: italic;
+    font-size: 16px;
+  }
+  .inputErr {
+    height: 2.2rem;
+    width: 45%;
+    font-family: "Merriweather", serif;
+    font-weight: italic;
+    font-size: 16px;
+    border-color: red;
+  }
+  .select {
+    height: 2.6rem;
+    width: 45%;
+    font-family: "Merriweather", serif;
+    font-weight: italic;
+    font-size: 16px;
+    color: #cfcfcf;
+  }
 
-.active {
-  opacity: 0;
-  color: red;
-}
+  .active {
+    opacity: 0;
+    color: red;
+  }
 
-.loading {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  /* background: #282828; */
-  padding-top: 25%;
-  overflow-y: scroll;
-  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
-  box-sizing: content-box; /* So the width will be 100% + 17px */
-}
+  .loading {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    /* background: #282828; */
+    padding-top: 25%;
+    overflow-y: scroll;
+    padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
+    box-sizing: content-box; /* So the width will be 100% + 17px */
+  }
 
-.loadingp {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden;
-  background: #282828;
+  .loadingp {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: #282828;
+  }
 }
-
 @media only screen and (max-width: 768px) {
   h1 {
     font-family: "Montserrat", sans-serif;
@@ -130,6 +131,7 @@ p {
     width: 100%;
     height: 100vh;
     display: flex;
+    background: #282828;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
