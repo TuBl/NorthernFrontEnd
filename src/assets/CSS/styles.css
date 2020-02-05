@@ -140,7 +140,7 @@ p {
   .line {
     background: #d02035;
     height: 10px;
-    width: 35%;
+    width: 100%;
   }
 
   .bg {
@@ -170,6 +170,9 @@ p {
 
   .heading {
     width: 100%;
+  }
+  .pp {
+    font-size: 10px;
   }
   .form {
     width: 100%;
