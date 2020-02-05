@@ -29,11 +29,11 @@ const Auth = () => {
               <h1>INTERNSHIP SIGNUP FORM</h1>
               <div className="line"></div>
               <h2>Thanks for your Interest!</h2>
-              <p>
+              <p class="pp">
                 We will review your application and contact you for addition
                 information should your background{" "}
               </p>
-              <p>
+              <p class="pp">
                 and experience meet the requirements of one of our openings.
               </p>
             </div>
