@@ -17,17 +17,17 @@ const Auth = () => {
   return (
     <Fragment>
       {hidden ? (
-        <div className='loadingp'>
-          <div className='loading'>
+        <div className="loadingp">
+          <div className="loading">
             <Loading></Loading>
           </div>
         </div>
       ) : (
-        <div className='bgThx'>
-          <div clas='container'>
-            <div className='heading'>
+        <div className="bgThx">
+          <div clas="container">
+            <div className="heading">
               <h1>INTERNSHIP SIGNUP FORM</h1>
-              <div className='line'></div>
+              <div className="line"></div>
               <h2>Thanks for your Interest!</h2>
               <p>
                 We will review your application and contact you for addition
